@@ -1,0 +1,58 @@
+@import url(style.css);
+
+section#home{
+    margin-left: 370px;
+    margin-right: 370px;
+}
+
+#home .home-content{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+#home .text-content h1{
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--rich-black);
+}
+
+#home .text-content p{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poppins';
+    padding-top: 20px;
+    padding-bottom: 24px;
+    color: var(--rich-black);
+}
+
+#home .home-buttons{
+    display: flex;
+}
+
+#home .home-button{
+    height: 50px;
+    width: 218px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: transparent;
+    margin-right: 32px;
+}
+
+#home .home-button.get-in-touch{
+    background-color: var(--true-blue);
+}
+
+#home .home-button.github{
+    background-color: var(--rich-black);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .home-button a{
+    color: var(--baby-powder);
+    text-decoration: none;
+}

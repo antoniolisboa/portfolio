@@ -1,0 +1,45 @@
+@import url(style.css);
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 336px;
+    border-bottom: 0.5px solid var(--rich-black-30);
+}
+
+header a{
+    text-decoration: none;
+    color: var(--rich-black);
+    font-size: 20px;
+}
+
+.logo{
+    color: var(--rich-black);
+    font-family: 'Galada';
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.logo span{
+    color: var(--true-blue);    
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-right: 28px;
+}
+
+header nav ul li:last-child{
+    margin-right: 0px;
+}
+
+header nav ul li a:hover{
+    color: var(--true-blue);
+    font-weight: 600;
+}
