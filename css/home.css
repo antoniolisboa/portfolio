@@ -1,58 +1,59 @@
 @import url(style.css);
 
-section#home{
-    margin-left: 370px;
-    margin-right: 370px;
-}
-
-#home .home-content{
+section#home {
     display: flex;
     align-items: center;
-    padding: 40px;
+    justify-content: center;
+    margin-left: 336px;
+    margin-right: 336px;
+}
+
+#home .text-content, .img-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #home .text-content h1{
     font-weight: 600;
-    font-size: 32px;
-    color: var(--rich-black);
+    font-size: 36px;
+    margin-right: 45px;
 }
 
 #home .text-content p{
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    font-family: 'Poppins';
-    padding-top: 20px;
-    padding-bottom: 24px;
-    color: var(--rich-black);
+    margin-top: 20px;
+    margin-bottom: 26px;
 }
 
 #home .home-buttons{
     display: flex;
+    gap: 32px;
 }
 
-#home .home-button{
+#home button{
     height: 50px;
     width: 218px;
-    font-weight: 500;
-    font-family: 'Poppins';
+}
+
+#home .home-buttons a{
+    text-decoration: none;
+    color: var(--baby-powder);
     font-size: 16px;
+}
+
+#home .home-buttons .gt{
+    background: var(--true-blue);
+    border: none;
     border-radius: 4px;
-    border-color: transparent;
-    margin-right: 32px;
 }
 
-#home .home-button.get-in-touch{
-    background-color: var(--true-blue);
-}
-
-#home .home-button.github{
-    background-color: var(--rich-black);
-    display: inline-flex;
+#home .home-buttons .gh{
+    background: var(--rich-black);
+    border: none;
+    border-radius: 4px;
+    display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#home .home-button a{
-    color: var(--baby-powder);
-    text-decoration: none;
+    gap: 8px;
 }
